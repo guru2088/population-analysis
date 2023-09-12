@@ -1,0 +1,38 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [
+      false
+    ],
+    "no-console": [
+      false,
+      "log"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "no-unused-variable": true,
+    "interface-name": [
+      false
+    ],
+    "no-empty-interface": false,
+    "no-string-literal": [
+      false
+    ],
+    "ordered-imports": false,
+    "space-before-function-paren": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-var-requires": false
+  }
+}

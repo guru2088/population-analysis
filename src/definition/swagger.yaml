@@ -1,0 +1,70 @@
+openapi: 3.0.0
+info:
+  title: Population anlysis API
+  description: Analyse population based on geojson data.
+  version: "1.0"
+paths:
+  /states:
+    get:
+      x-swagger-router-controller: main
+      operationId: getStates
+      tags:
+        - /states
+      description: >-
+        Returns states.
+      responses:
+        "200":
+          description: Successful request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/States"
+        default:
+          description: Invalid request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /peoples:
+    get:
+      x-swagger-router-controller: main
+      operationId: getPeoples
+      tags:
+        - /states
+      description: >-
+        Returns states.
+      responses:
+        "200":
+          description: Successful request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Peoples"
+        default:
+          description: Invalid request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+servers:
+  - url: "/api"
+components:
+  schemas:
+    States:
+      properties:
+        msg:
+          type: array
+      required:
+        - msg
+    Peoples:
+      properties:
+        msg:
+          type: array
+      required:
+        - msg
+    Error:
+      properties:
+        message:
+          type: string
+      required:
+        - message
