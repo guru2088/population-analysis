@@ -1,6 +1,6 @@
-# Nodejs FES Template
+# To Download s3 files
 
-This version includes support for OpenAPI 3.0
+aws s3 cp s3://backend-assignment . --recursive
 
 ## Environment vars
 

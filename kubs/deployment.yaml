@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: api
+  name: population-analysis
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: api
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: api
+    spec:
+      containers:
+      - image: xxxxxxxxxxxxxxx.dkr.ecr.ap-south-1.amazonaws.com/population-analysis:latest
+        name: api-container
+        imagePullPolicy: Always
+        resources: {}
+        ports:
+          - containerPort: 80
+        env:
+          - name: PORT
+            value: "80"
+          - name: DATABASE_HOST
+            value: "xxxxxxxxxxxxxxxxxx"
+          - name: DATABASE_PORT
+            value: "xxxxxxxxxxxxxxxxxx"
+status: {}
