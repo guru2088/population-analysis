@@ -65,6 +65,6 @@
   "engines": {
     "node": ">8.10.0"
   },
-  "author": "Moritz Laass",
+  "author": "Gururajan",
   "license": "MIT"
 }
