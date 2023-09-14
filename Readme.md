@@ -7,8 +7,8 @@
 
 ## Environment vars
 
-DB_ADDRESS=mongodb://127.0.0.1:27017/
-DB_NAME=population
+`DB_ADDRESS=mongodb://127.0.0.1:27017/`
+`DB_NAME=population`
 
 ## Installation
 
@@ -21,8 +21,8 @@ DB_NAME=population
     - Place all the state geo json files in data/states folder
     - Place the people file in data/peoples folder
 - Execute data/scripts in below order
-    - node ./states.js
-    - node ./individual.js
+    - `node ./states.js`
+    - `node ./individual.js`
 - Open the mongodb client and execute data/scripts/indexes.sql
 - Check the mongodb if records are fully populated before proceeding to next step
 
@@ -33,7 +33,7 @@ DB_NAME=population
 # API testing
 
 - State API testing : `http://localhost:8001/api/states`
-- People API testing : `http://localhost:8001/api/peoples?state_id={id from above api (e-g) 6500921dc73bd5d3bbf47e75}`
+- People API testing : `http://localhost:8001/api/peoples?state_id={6500921dc73bd5d3bbf47e75}` - id from above api
 - To import in postman please use Population.postman_collection.json file
 
 # Outputs
