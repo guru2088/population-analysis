@@ -1,10 +1,11 @@
 const fs = require("fs");
 const csv = require("csv-parser");
+require('dotenv').config()
 
 const { MongoClient } = require("mongodb");
-const url = "mongodb://127.0.0.1:27017";
+const url = process.env.DB_ADDRESS;
 const client = new MongoClient(url);
-const database = "population";
+const database = process.env.DB_NAME;
 
 async function insertData(data) {
   let result = await client.connect();
@@ -14,7 +15,7 @@ async function insertData(data) {
   return response;
 }
 
-fs.createReadStream("../individuals.csv")
+fs.createReadStream("../peoples/individuals.csv")
   .pipe(csv())
   .on("data", async function (data) {
     try {

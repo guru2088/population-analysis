@@ -1,0 +1,120 @@
+{
+    "states": [
+        {
+            "_id": "6500921dc73bd5d3bbf47e75",
+            "name": "Andhra Pradesh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e76",
+            "name": "Arunanchal Pradesh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e77",
+            "name": "Assam"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e78",
+            "name": "Bihar"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e79",
+            "name": "Chhattisgarh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7b",
+            "name": "Goa"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7c",
+            "name": "Gujarat"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7d",
+            "name": "Haryana"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7e",
+            "name": "Himachal Pradesh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7f",
+            "name": "Jammu & Kashmir"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e80",
+            "name": "Jharkhand"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e81",
+            "name": "Karnataka"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e82",
+            "name": "Kerala"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e83",
+            "name": "Madhya Pradesh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e84",
+            "name": "Maharashtra"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e85",
+            "name": "Manipur"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e86",
+            "name": "Meghalaya"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e87",
+            "name": "Mizoram"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e7a",
+            "name": "NCT of Delhi"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e88",
+            "name": "Nagaland"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e89",
+            "name": "Odisha"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8a",
+            "name": "Punjab"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8b",
+            "name": "Rajasthan"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8c",
+            "name": "Sikkim"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8d",
+            "name": "Telangana"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8e",
+            "name": "Tripura"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e8f",
+            "name": "Uttar Pradesh"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e90",
+            "name": "Uttarakhand"
+        },
+        {
+            "_id": "6500921dc73bd5d3bbf47e91",
+            "name": "West Bengal"
+        }
+    ]
+}

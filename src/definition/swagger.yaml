@@ -33,6 +33,13 @@ paths:
         - /states
       description: >-
         Returns states.
+      parameters:
+        - in: query
+          name: state_id
+          schema:
+            type: string
+          required: true
+          description: Alphanumeric character. State ID is used to filter records
       responses:
         "200":
           description: Successful request.
@@ -52,16 +59,16 @@ components:
   schemas:
     States:
       properties:
-        msg:
+        states:
           type: array
       required:
-        - msg
+        - states
     Peoples:
       properties:
-        msg:
-          type: array
+        peoples:
+          type: object
       required:
-        - msg
+        - peoples
     Error:
       properties:
         message:

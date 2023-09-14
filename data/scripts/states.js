@@ -5,9 +5,9 @@ const directoryPath = path.join(__dirname, '../states');
 
 
 const { MongoClient } = require("mongodb");
-const url = "mongodb://127.0.0.1:27017";
+const url = process.env.DB_ADDRESS;
 const client = new MongoClient(url);
-const database = "population";
+const database = process.env.DB_NAME;
 
 
 async function insertData(data) {
