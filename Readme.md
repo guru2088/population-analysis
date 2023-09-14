@@ -30,6 +30,10 @@
 
 - Run in DEV environment : `npm run dev`
 
+# Swagger url
+
+- http://localhost:8001/swagger/#/
+
 # API testing
 
 - State API testing : `http://localhost:8001/api/states`
